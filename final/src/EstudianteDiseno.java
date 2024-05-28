@@ -37,6 +37,11 @@ public class EstudianteDiseno extends Estudiante {
     @Override
     public String mostrarDetalles() {
 
-        throw new UnsupportedOperationException("Unimplemented method 'mostrarDetalles'");
+        return "Estudiante de diseño: " + getNombre() + " " + getApellido() + "\n" +
+                "Cédula: " + getCedula() + "\n" +
+                "Teléfono: " + getTelefono() + "\n" +
+                "modalidad de estudio : " + getModalidad() + "\n" +
+                "cantidad de asignaturas del estudiante: " + getAsignaturas()+ "\n" +
+                "Serial del equipo: " + getSerial();
     }
 }

@@ -180,6 +180,7 @@ public class Main {
         List<String> estudiantes = gestion.mostrarEstudiantes();
         List<String> equipos = gestion.mostrarEquipos();
 
+
         StringBuilder inventario = new StringBuilder();
         inventario.append("Listado de Estudiantes:\n");
         for (String estudiante : estudiantes) {
